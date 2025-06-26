@@ -49,39 +49,27 @@ export const About = () => {
       <Page header="About">
         <Text>
           <Paragraph>
-            I'm a passionate programmer, who is always looking for new
-            challenges to improve myself, also a team player, who is always
-            ready to learn new things and help others.
-            <br />I was born and raised in Nagpur, India. I love to play guitar
-            and ukulele and in my free time I like to read books, watch movies
-            and play video games.
+            Kana Hayashi
+            <br /> ポートフォリオをご覧いただきありがとうございます。
+            私は会津大学で3DCGアニメーションを学んでいます。主にBlenderを使って、キャラクターや背景のモデリング、アニメーション制作に取り組んでいます。
+            <br /> 料理を作ること、そして美味しいものを食べることが大好きで、3Dアニメーションの中でも、"美味しそう" と感じてもらえる表現に強く惹かれています。
+            また、幼少期から続けてきたピアノのおかげで音楽も大切な表現の一つになっており、ライブや演奏シーンに命を吹き込むような演出にも挑戦しています。
+            <br /> 私が目指しているのは、ただリアルな映像を作るのではなく「美味しそう」「楽しそう」「切ない」といった、人の心がふっと揺れる瞬間を映像の中で表現することです。
+            日常の中にある感情の高ぶりを、丁寧にすくい取る作品を創作できるようになりたいです。
+
           </Paragraph>
           <Educations>
             <AboutItem
               color={blue}
               active
               data={{
-                title: "D.Y. Patil college of engineering, Pune",
-                p: "Bachelors of Computer Engineering (2019-2023)",
-                image: dyp,
-              }}
-            />
-            <AboutItem
-              color={green}
-              data={{
-                title: "M.P. Deo D. Science College, Nagpur",
-                p: "High School (2017-2019)",
-                image: highschool,
-              }}
-            />
-            <AboutItem
-              color={yellow}
-              data={{
-                title: "School of Scholars, Nagpur",
-                p: "Secondary Education (2007-2017)",
+                
+                p: "Portions of this code were developed by Teshank Raut. You can find the original project at https://github.com/teshank2137/portfolio",
                 image: sos,
               }}
             />
+           
+            
           </Educations>
         </Text>
         <SkillsWrapper>

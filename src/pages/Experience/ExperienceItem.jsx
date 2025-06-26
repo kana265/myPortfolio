@@ -20,6 +20,12 @@ export const ExperienceItem = (props) => {
         {data.joined} - {data.end}
       </div>
       <p>{data.bio}</p>
+
+      {data.link && (
+  <a href={data.link} target="_blank" rel="noopener noreferrer">
+    <button>Read More</button>
+  </a>
+)}
     </StyledExperienceItem>
   );
 };

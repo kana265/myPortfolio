@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import youtubeIcon from "../../assets/images/youtube.png"; // 任意のパスに合わせて変更
+
 import {
   AiFillGithub,
   AiFillLinkedin,
@@ -58,23 +60,23 @@ export const Contact = () => {
         <div className="buttons">
           <div className="socials">
             <a
-              href="https://www.linkedin.com/in/teshankraut/"
+              href="https://www.youtube.com/@stepbystep0526"
               target="_blank"
               rel="noopener noreferrer"
             >
               <IconButton bg={blue}>
-                <AiFillLinkedin size={40} />
+              <img src={youtubeIcon} alt="YouTube" style={{ width: "42px", height: "28px" }} />
               </IconButton>
             </a>
 
-            <a href="mailto:teshank.2137@gamil.com">
+            <a href="mailto:arsags526@gmail.com">
               <IconButton bg={green}>
                 <AiOutlineMail size={40} />
               </IconButton>
             </a>
 
             <a
-              href="https://github.com/teshank2137"
+              href="https://github.com/kana265"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -82,17 +84,7 @@ export const Contact = () => {
                 <AiFillGithub size={40} />
               </IconButton>
             </a>
-
-            <a
-              href="https://drive.google.com/file/d/1zp5khZY8XGJllzt2D8K0K47yqEk_Lkj5/view?usp=sharing"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <DownloadButton bg={red} tooltip="Download">
-                <AiOutlineDownload size={40} />
-                <span>Resume</span>
-              </DownloadButton>
-            </a>
+ 
           </div>
           <Button
             disabled={

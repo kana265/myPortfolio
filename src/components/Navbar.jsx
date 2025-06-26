@@ -74,7 +74,7 @@ export const Navbar = ({ children }) => {
               onClick={handelDotMovement}
               id="experience"
             >
-              Experiences
+              Experience
             </NavbarItem>
           </li>
           <li className="home_navbar-item">

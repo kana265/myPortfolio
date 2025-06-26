@@ -1,31 +1,69 @@
-import stonks from "../assets/images/stonks.png";
-import sendfrom from "../assets/images/sendform.jpg";
+//ここに表示したい画像が保存されているファイルを指定してインポートする
+import yagakko from "../assets/images/yagakko.png";
+import band from "../assets/images/girlsband.png";
 import semicolon from "../assets/images/semicolon.png";
-import scroll from "../assets/images/scroll.jpg";
-import getv from "../assets/images/get-v.jpg";
+import christmas from "../assets/images/christmas.png";
+import chasmscall from "../assets/images/chasms_call.png";
+import salad from "../assets/images/salad.png";
+import celebration from "../assets/images/celebration.png";
 
 export const projects = [
+  //各プロジェクトのオブジェクト
   {
-    title: "Get Vulnerable",
-    image: getv,
-    link: "https://get-vulnerable.teshank.dev",
+    title: "Afternoon in the Kitchen",
+    image: salad,
+    link: "https://youtu.be/VQ7Gyybo-Ts",
     description:
-      "Game which encourages the players to open up by asking questions",
+      "Animated video of a hungry girl cooking and eating a salad",
   },
+
   {
-    title: "Semicolon",
+    title: "A Moment with Mochi",
     image: semicolon,
-    link: "https://github.com/teshank2137/semicolon.md",
+    link: "https://youtu.be/oy2inEWj4W0?si=_aAreRerd-9YQJmq",
     description:
-      "Mental health support by predicting and offering activities for mood upliftment.",
+      "An animation of a girl having fun stretching mochi.",
+  },
+  
+  {
+    title: "Chasm's Call",
+    image: chasmscall,
+    link: "https://youtu.be/Ek7haBQv4Sw?si=eZPum674yEwWEJfE",
+    description:
+      "This was my first time participating in the 3D community challenge.",
+  },
+
+  {
+    title: "Christmas animation",
+    image: christmas,
+    link: "https://youtu.be/2MuFeSfQ-8k?si=aeZmFGJZz2C07Oxj",
+    description:
+      "An animation of Santa Clauses delivering presents to children.",
+  },
+
+  {
+    title: "Girls band live show",
+    image: band,
+    link: "https://drive.google.com/file/d/10i-Tpcp9qvMMWAvGjSDo9-1vmozL382o/view?usp=sharing",
+    description:
+      "An animation of a 4 girls band performing a live show. The challenge of human animation",
   },
   {
-    title: "Send form to me",
-    image: sendfrom,
-    link: "https://sendformto.me",
+    title: "Christmas celebration",
+    image: celebration,
+    link: "https://drive.google.com/file/d/15_zdqjPq10VcWfglfqSHkPNqE2fD7BNY/view?usp=sharing",
     description:
-      "Backend-as-a-service for creating forms with unique URLs and email notifications.",
+      "Animated a girl preparing for Christmas celebration and a raccoon curious about the tree.",
   },
+
+  {
+    title: "Melody in the Classroom",
+    image: yagakko,
+    link: "https://youtu.be/sLvVsNkwMrk?si=v9VVqj3_5Mq8yIev",
+    description:
+      "Musical instruments starting to play in a classroom at night. It was created by a team of three people.",
+  },
+  /*
   {
     title: "Fan Merch",
     image:
@@ -79,4 +117,5 @@ export const projects = [
       "https://raw.githubusercontent.com/teshank2137/portfolio/v1/src/assets/images/port.JPG",
     link: "https://www.v1.teshank.dev/",
   },
+  */
 ];
